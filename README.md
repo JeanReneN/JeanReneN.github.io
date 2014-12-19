@@ -15,6 +15,7 @@ http://htmlpreview.github.io/?https://github.com/JeanReneN/JeanReneN.github.io/b
 
 
 Notes:
+
 1. You can access the shiny application repository via this link:
 
 https://github.com/JeanReneN/Developing-Data-Products
