@@ -3,7 +3,7 @@ Reproducible Pitch Presentation
 
 first_deck
 
-This is Reproducible Pitch Presentation of my shiny application.
+This is a Reproducible Pitch Presentation of my shiny application.
 
 It is a 5 slide web page creation using Slidify or Rstudio Presenter with an html5 slide deck.
 
