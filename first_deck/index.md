@@ -7,7 +7,7 @@ framework   : io2012        # {io2012, html5slides, shower, dzslides,revealjs, .
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
-mode        : standalone    # {selfcontained, draft}
+mode        : selfcontained    # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
@@ -75,13 +75,11 @@ anova(lm(mpg~am, data = mtcars))
 ```
 
 ---.class #id 
-
 ## Prediction
 
-### Example
+##### Example
 - A car weight is 3.22 thousand pounds
 - The prediction is:
 [1] "20 Miles Per Gallon"
-
-![plot of chunk unnamed-chunk-7](assets/fig/unnamed-chunk-7-1.png) 
+<img src="assets/fig/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" />
 ---
