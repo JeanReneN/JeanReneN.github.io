@@ -76,20 +76,19 @@ anova(lm(mpg~am, data = mtcars))
 ```
 
 ---.class #id 
+
 ## Prediction
 ```{r,echo=FALSE, results='hide'}
 library(ggplot2)
 ```
-##### Example
+### Example
 - A car weight is 3.22 thousand pounds
 - The prediction is:
 ```{r,echo=FALSE, results='asis'}
 paste(round((37.29 - (5.34*3.22)), digits=0), " Miles Per Gallon", sep="")
 ```
-```{r fig.height=6,fig.align='center', echo=FALSE}
-qplot(wt, mpg,  data = mtcars, 
-      geom = c("point","smooth"), 
-      main="MPG ~ WEIGHT REGRESSION LINE AND CONFIDENCE INTERVAL",
-      xlab="WEIGHT",ylab="MPG",method = "lm")
+
+```{r,echo=FALSE, results='markup'}
+qplot(wt, mpg,  data = mtcars, geom = c("point","smooth"), method = "lm")
 ```
 ---
